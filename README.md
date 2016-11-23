@@ -5,6 +5,7 @@ The goal of this project is to produce a tidy data file based on a dataset from 
 
 
 
+
 ##Project Requirements
 
 * Data
@@ -22,9 +23,11 @@ The goal of this project is to produce a tidy data file based on a dataset from 
 
 
 
+
 ##Implementaion
 
 The script ``` run_analysis.R ``` performs the analysis of the source dataset and creates a tidy data file called ``` aggregated_data.txt ```. 
+
 
 ###Starting the script:
 
@@ -32,13 +35,14 @@ The script ``` run_analysis.R ``` performs the analysis of the source dataset an
 source("run_analysis.R")
 ```
 
+
 ###Reloading the result file into R:
 
 ``` 
 tidy_data <- read.table("./aggregated_data.txt", sep="|", header = TRUE)
 ```
 
-###Please Note: The script requires the package dplyr to be installed.
+####Please Note: The script requires the package dplyr to be installed.
 
 
 
@@ -86,7 +90,7 @@ unzip("./data/uci.zip", exdir = "./data/")
 
 Load training and test data and build one combined dataset.
 Merge activity id with activity name using join command. Join keeps sort order of first data frame.
-Add subject id and activity name to measurement data frame.
+Add subject id, activity name and original variable names to measurement data frame.
 
 
 ```
@@ -188,6 +192,7 @@ write.table(aggregated_data, file="aggregated_data.txt", row.name=FALSE, sep="|"
 
 
 
+
 ###Results
 
 The script results in a tidy wide format data file with 180 rows (30 subjects * 6 activities) and 68 columns (subject, activity and 66 measurement variables).
@@ -197,7 +202,8 @@ The data set is tidy:
 * All variables are in different columns
 * There are no duplicate columns
 
-Additional information for the different columns is available in the CodeBook, available in this repository.
+The CodeBook, available in this repository, provides additional information for the different columns.
+
 
 
 
