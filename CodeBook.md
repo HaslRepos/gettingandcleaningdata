@@ -123,3 +123,4 @@ Type: float
 | **Gravity Acceleration Standard Deviation Y-Axis** | *time-gravity-acceleration-stddev-y* | | 
 | **Gravity Acceleration Standard Deviation Z-Axis** | *time-gravity-acceleration-stddev-z* | | 
 
+

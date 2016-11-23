@@ -102,3 +102,4 @@ aggregated_data <- group_by(filtered_data, subject, activity) %>% summarise_each
 #
 
 write.table(aggregated_data, file="aggregated_data.txt", row.name=FALSE)
+
