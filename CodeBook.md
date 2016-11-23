@@ -12,9 +12,9 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals (Fre
 
 ```
 
-<b>Signals used:
+Signals used:
 
-<b>Time Domain:</b>
+Time Domain:
   Body Acceleration Jerk Magnitude
   Body Acceleration Jerk (3 axial)
   Body Acceleration Magnitude
@@ -26,7 +26,7 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals (Fre
   Gravity Acceleration Magnitude
   Gravity Acceleration (3 axial)
 
-<b>Frequency Domain</b>
+Frequency Domain
   Body Acceleration Jerk Magnitude
   Body Acceleration Jerk (3 axial)
   Body Acceleration Magnitude
@@ -43,7 +43,10 @@ A broad range of variables were estimated from these signals, two of which are r
 
 For more details on the source data, see: 
 *Lichman, M. (2013). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.*
+
 <https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>
+
+
 
 ###Resulting Data
 
@@ -56,8 +59,9 @@ Type: numeric
 
 Possible values: 1 - 30
 
+
 ####activity
-Name of the activity performed
+Name of the activity performed.
 
 Type: char
 
@@ -69,8 +73,9 @@ Possible values:
 * WALKING_DOWNSTAIRS
 * WALKING_UPSTAIRS
 
+
 ####measurement
-Variable calculated for each variable and domain (time / frequency). Names of the variables can be found in the table below.
+Average calculated for each variable and domain (time or frequency). Names of the variables can be found in the table below.
 
 Type: float
 
