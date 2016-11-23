@@ -21,21 +21,24 @@ The goal of this project is to produce a tidy data file based on a dataset from 
 
 ##Implementaion
 
-The script ``` run_analysis.R ``` performs the analysis of the source dataset and creates a tidy data file called ``` aggregated_data.txt ```.
+The script ``` run_analysis.R ``` performs the analysis of the source dataset and creates a tidy data file called ``` aggregated_data.txt ```. 
 
-The script can be invoked by:
+###Starting the script:
 
 ``` 
 source(„run_analysis.R“)
 
 ```
 
-Reload the created data file into R by:
+###Reloading the created data file into R:
 
 ``` 
 tidy_data <- read.table(file="aggregated_data.txt", sep="|")
 
 ```
+
+###Please Note: The script requires the package dplyr to be installed.
+
 
 
 
