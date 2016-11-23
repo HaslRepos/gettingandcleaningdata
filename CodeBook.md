@@ -42,10 +42,8 @@ A broad range of variables were estimated from these signals, two of which are r
 ```
 
 For more details on the source data, see: 
-```
-*Lichman, M. (2013). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.* 
-https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-```
+*Lichman, M. (2013). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.*
+<https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>
 
 ###Resulting Data
 
@@ -53,12 +51,16 @@ The resulting data file provides an aggregated list of subjects and activities w
 
 ####subject
 Identifier of the subject performing the experiment.
+
 Type: numeric
+
 Possible values: 1 - 30
 
 ####activity
 Name of the activity performed
+
 Type: char
+
 Possible values:
 * LAYING
 * SITTING
@@ -68,8 +70,10 @@ Possible values:
 * WALKING_UPSTAIRS
 
 ####measurement
-Variable calculated for each variable and domain (time / frequency). Name of the variables can be found in the table below.
+Variable calculated for each variable and domain (time / frequency). Names of the variables can be found in the table below.
+
 Type: float
+
 
 | Variable | Time Domain| Frequency Domain | 
 | ---------------------------------------------------------------------- | ----------------------------------------------------------------------| ---------------------------------------------------------------------- | 
