@@ -5,39 +5,39 @@ This CodeBook provides information on the dataset created by the R script ```run
 
 ###Source Data
 
-The script is based on the "UCI Human Activity Recognition database", built from the recordings of 30 subjects performing activities of daily living (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) while carrying a waist-mounted smartphone with embedded inertial sensors.
+The dataset is based on the "UCI Human Activity Recognition database", built from the recordings of 30 subjects performing activities of daily living (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) while carrying a waist-mounted smartphone with embedded inertial sensors.
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals. Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm. 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals (Frequency domain).
 
 ```
 
-####Signals used:
+<b>Signals used:
 
-**Time Domain:**
-* Body Acceleration Jerk Magnitude
-* Body Acceleration Jerk (3 axial)
-* Body Acceleration Magnitude
-* Body Acceleration (3 axial)
-* Body Angularvelocity Jerk Magnitude
-* Body Angularvelocity Jerk (3 axial)
-* Body Angularvelocity Magnitude
-* Body Angularvelocity (3 axial)
-* Gravity Acceleration Magnitude
-* Gravity Acceleration (3 axial)
+<b>Time Domain:</b>
+  Body Acceleration Jerk Magnitude
+  Body Acceleration Jerk (3 axial)
+  Body Acceleration Magnitude
+  Body Acceleration (3 axial)
+  Body Angularvelocity Jerk Magnitude
+  Body Angularvelocity Jerk (3 axial)
+  Body Angularvelocity Magnitude
+  Body Angularvelocity (3 axial)
+  Gravity Acceleration Magnitude
+  Gravity Acceleration (3 axial)
 
-**Frequency Domain**
-* Body Acceleration Jerk Magnitude
-* Body Acceleration Jerk (3 axial)
-* Body Acceleration Magnitude
-* Body Acceleration (3 axial)
-* Body Angularvelocity Jerk Magnitude
-* Body Angularvelocity Magnitude
-* Body Angularvelocity (3 axial)
+<b>Frequency Domain</b>
+  Body Acceleration Jerk Magnitude
+  Body Acceleration Jerk (3 axial)
+  Body Acceleration Magnitude
+  Body Acceleration (3 axial)
+  Body Angularvelocity Jerk Magnitude
+  Body Angularvelocity Magnitude
+  Body Angularvelocity (3 axial)
 
 A broad range of variables were estimated from these signals, two of which are relevant for this analysis:
-* mean: 	Mean value
-* stddev: Standard deviation
+  mean:   Mean value
+  stddev: Standard deviation
 
 ```
 
