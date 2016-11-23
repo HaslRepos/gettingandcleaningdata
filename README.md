@@ -39,7 +39,7 @@ source("run_analysis.R")
 ####Reloading the result file into R:
 
 ``` 
-tidy_data <- read.table("./aggregated_data.txt", sep="|", header = TRUE)
+tidy_data <- read.table("./aggregated_data.txt", header = TRUE)
 ```
 
 ####Please Note: The script requires the package dplyr to be installed.
